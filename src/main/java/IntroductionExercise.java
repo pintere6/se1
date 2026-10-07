@@ -1,7 +1,7 @@
 public class IntroductionExercise {
     public static void main(String[] args) {
         int[] v1 = {1,2,3};
-        int[] v2 = {-1,2,3};
+        int[] v2 = {1,2,3};
         int innerProduct = getInnerProduct(v1,v2);
             System.out.println(innerProduct);
 
