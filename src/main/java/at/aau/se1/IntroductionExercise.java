@@ -1,11 +1,7 @@
-public class IntroductionExercise {
-    public static void main(String[] args) {
-        int[] v1 = {1,2,3};
-        int[] v2 = {1,2,3};
-        int innerProduct = getInnerProduct(v1,v2);
-            System.out.println(innerProduct);
+package at.aau.se1;
 
-    }
+public class IntroductionExercise {
+
     public static int getInnerProduct(int[] vec1, int[] vec2) {
         if (vec1 == null || vec2 == null) {
             throw new IllegalArgumentException("Vektoren dürfen nicht null sein.");
